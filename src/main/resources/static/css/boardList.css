@@ -1,0 +1,26 @@
+.Layout {
+    width:500px;
+    margin:0 auto;
+    margin-top:40px;
+}
+.board-list {
+    border-collapse:collapse;
+    border:1px solid #333;
+}
+th, td {
+    border-bottom : 1px solid #ddd;
+}
+.board-list-row:hover {
+    background-color:#E1F4D0;
+}
+a.board-title{
+    color:black;
+    text-decoration:none;
+}
+a.board-title:hover {
+    font-weight:bold;
+    text-decoration:underline;
+}
+td.board-viewcount {
+    text-align: center;
+}

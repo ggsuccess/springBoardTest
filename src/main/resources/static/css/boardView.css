@@ -1,0 +1,21 @@
+.Layout {
+    width:500px;
+    margin: 0 auto;
+    margin-top:10px;
+}
+.board-view-table {
+    border: 1px solid #333;
+
+}
+.board-view-table  th,td {
+    border-bottom: 1px solid;
+}
+.board-content {
+    border-bottom : none;
+}
+a.delete-link {
+    margin: 4px;
+}
+a.modify-link {
+    margin: 4px;
+}

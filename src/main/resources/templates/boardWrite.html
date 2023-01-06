@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>게시물 작성하기</title>
+    <link rel="stylesheet" href="/css/boardWrite.css" type="text/css">
+</head>
+
+<body>
+<div class="Layout">
+    <h1>게시글 작성하기</h1>
+    <form action="/board/writedo" method="post" name="form">
+        글 제목<input type="text" name="title" maxlength="150" placeholder="제목을 입력하세요">
+        내용<textarea rows="7" cols="60" name="content" placeholder="글 내용을 입력하세요"></textarea>
+        비밀번호<input name="password" type="password" maxlength="15" placeholder="비밀번호를 입력하세요">
+        <button type="submit" onclick="return boardWriteCheck()">완료</button>
+    </form>
+    <button onclick="location.href='/board/list'">작성취소</button>
+</div>
+</body>
+<script src="/js/boardWriteCheck.js" ></script>
+</html>
