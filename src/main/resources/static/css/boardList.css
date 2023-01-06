@@ -24,3 +24,6 @@ a.board-title:hover {
 td.board-viewcount {
     text-align: center;
 }
+.write-btn {
+    margin:2px;
+}

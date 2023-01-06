@@ -28,7 +28,7 @@
         </tr>
         </tbody>
     </table>
-    <button onclick="location.href='/board/write'">글 작성하기</button>
+    <button class="write-btn" onclick="location.href='/board/write'">글 작성하기</button>
     <th:block th:each="page:${#numbers.sequence(startPage,endPage)}">
         <a th:if="${page != currentPage}" th:href="@{/board/list(page=${page-1}, searchKeyword=${param.searchKeyword})}"
            th:text="${page}"></a>
